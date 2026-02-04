@@ -1,0 +1,11 @@
+#include <iostream>
+//using namespace std;
+
+int main(){
+    int n = 4;
+    char c = 'C';
+    std::cout << (int)c << std::endl;
+    int sum = n + c;
+    std::cout << sum;
+    return 0;
+}
